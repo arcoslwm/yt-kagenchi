@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "yt-kagenchi",
+    "description": "open youtube links in embed mode on new tab",
+    "version": "1.0",
+    "homepage_url": "https://github.com/arcoslwm",
+    "icons": {
+        "48": "icons/yt.png"
+    },
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+       "activeTab",
+       "contextMenus"
+   ]
+
+}
