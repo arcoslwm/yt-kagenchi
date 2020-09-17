@@ -17,8 +17,8 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
 
             videoId = linkUrl.substr(linkUrl.indexOf("v=") + 2, 11);
         }
-        else if (linkUrl.indexOf("youtu.be/") !== -1 &&
-            linkUrl.substr(linkUrl.indexOf(".be/") + 4).length >= 11) {
+        else if ( linkUrl.indexOf("youtu.be/") !== -1 &&
+                  linkUrl.substr(linkUrl.indexOf(".be/") + 4).length >= 11) {
 
             videoId = linkUrl.substr(linkUrl.indexOf(".be/") + 4, 11);
         }
